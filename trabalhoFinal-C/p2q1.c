@@ -1,11 +1,11 @@
-//Engenharia de Computação - 1º semestre matutino - Linguagem de Programação I - Parte 1, q.1
+//Engenharia de ComputaÃ§Ã£o - 1Âº semestre matutino - Linguagem de ProgramaÃ§Ã£o I - Parte 2, q.1
 //Alunos: Ana Carolina, Nicolas, Pietra, Roberto e Sarah
 //5 de dezembro de 2022
 
-/*1) Faça um programa que leia o nome, sexo e o valor da mensalidade de 3 alunos. Após a leitura dos dados informe:
+/*1) FaÃ§a um programa que leia o nome, sexo e o valor da mensalidade de 3 alunos. ApÃ³s a leitura dos dados informe:
 a) O valor da menor mensalidade;
 b) A quantidade de alunos do sexo masculino ('M');
-c) A média das mensalidades;
+c) A mÃ©dia das mensalidades;
 d) O nome e a idade do aluno mais velho.*/
 
 #include<stdio.h>
@@ -44,13 +44,13 @@ int main()
 }while(i<4);
 
   if (mensal[1] <= mensal[2] && mensal[1] <= mensal[3]){
-    printf("\n\n O valor da menor mensalidade é: R$%.1f", mensal[1]);
+    printf("\n\n O valor da menor mensalidade Ã©: R$%.1f", mensal[1]);
 }
    if (mensal[2] <= mensal[1] && mensal[2] <= mensal[3]){
-    printf("\n\n O valor da menor mensalidade é: R$%.1f", mensal[2]);
+    printf("\n\n O valor da menor mensalidade Ã©: R$%.1f", mensal[2]);
 }
    if (mensal[3] <= mensal[1] && mensal[3] <= mensal[2]){
-    printf("\n\n O valor da menor mensalidade é: R$%.1f ", mensal[3]);
+    printf("\n\n O valor da menor mensalidade Ã©: R$%.1f ", mensal[3]);
 }
 
 if(sex[1]==1){
@@ -67,14 +67,14 @@ masc+=1;
 printf("\n\n Quantidade de alunos do sexo masculino: %d", masc);
 
 med = (mensal[1] + mensal[2] + mensal[3])/3;
-printf("\n\n A média das mensalidades é: R$%.1f\n", med);
+printf("\n\n A mÃ©dia das mensalidades Ã©: R$%.1f\n", med);
 
  	if(id[1] >= id[2] && id[1] >= id[3]){
-    printf("\n\n O Aluno 1 é o mais velho\n Idade: %i\n Nome do aluno mais velho: %s ", id[1], nome[1]);
+    printf("\n\n O Aluno 1 Ã© o mais velho\n Idade: %i\n Nome do aluno mais velho: %s ", id[1], nome[1]);
 }
    if (id[2] >= id[1] && id[2] >= id[3]){
-     printf("\n\n O Aluno 2 é o mais velho\n Idade: %i\n Nome: %s ", id[2], nome[2]);
+     printf("\n\n O Aluno 2 Ã© o mais velho\n Idade: %i\n Nome: %s ", id[2], nome[2]);
 }
    if (id[3] >= id[1] && id[3] >= id[2])
-    printf("\n\n O Aluno 3 é o mais velho\n Idade: %i\n Nome: %s", id[3], nome[3]);
+    printf("\n\n O Aluno 3 Ã© o mais velho\n Idade: %i\n Nome: %s", id[3], nome[3]);
 }
