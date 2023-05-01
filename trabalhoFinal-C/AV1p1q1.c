@@ -1,4 +1,4 @@
-//Engenharia de Computação - 1º semestre matutino - Linguagem de Programação I - Parte 1, q.1
+//Engenharia de ComputaÃ§Ã£o - 1Âº semestre matutino - Linguagem de ProgramaÃ§Ã£o I - Parte 1, q.1
 //Alunos: Ana Carolina, Nicolas, Pietra, Roberto e Sarah
 //5 de dezembro de 2022
 #include<stdio.h>
@@ -63,13 +63,13 @@ int main(void)
 	}
 		printf("\n");
     }
-    printf("\n Quantidade de números pares = %d\n", contpar);
-    printf(" Soma dos números ímpares = %d\n", somaimpar);
-    printf(" Menor número = %d\n Maior número = %d\n", men, mai);
-    printf(" Média dos elementos = %d\n", somtot/9);
+    printf("\n Quantidade de nÃºmeros pares = %d\n", contpar);
+    printf(" Soma dos nÃºmeros Ã­mpares = %d\n", somaimpar);
+    printf(" Menor nÃºmero = %d\n Maior nÃºmero = %d\n", men, mai);
+    printf(" MÃ©dia dos elementos = %d\n", somtot/9);
     printf(" Valores iguais a 10 = %d\n", repet);
-    printf(" Multiplicação dos números da diagonal principal = %d\n", mult);
-    printf(" Soma dos elementos divisíveis por 5 = %d\n", som5);
+    printf(" MultiplicaÃ§Ã£o dos nÃºmeros da diagonal principal = %d\n", mult);
+    printf(" Soma dos elementos divisÃ­veis por 5 = %d\n", som5);
     printf(" Valores menores que 8 = %d\n", vet[matriz[i][j]]);
 	getch();
 	return 0;	
