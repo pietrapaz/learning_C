@@ -1,4 +1,4 @@
-//Engenharia de Computação - 1º semestre matutino - Linguagem de Programação I - Parte 1, q.1
+//Engenharia de Computação - 1º semestre matutino - Linguagem de Programação I - Parte 1, q.2
 //Alunos: Ana Carolina, Nicolas, Pietra, Roberto e Sarah
 //5 de dezembro de 2022
 
