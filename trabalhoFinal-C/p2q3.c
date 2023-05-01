@@ -1,8 +1,8 @@
-//Engenharia de Computação - 1º semestre matutino - Linguagem de Programação I - Parte 1, q.1
+//Engenharia de ComputaÃ§Ã£o - 1Âº semestre matutino - Linguagem de ProgramaÃ§Ã£o I - Parte 2, q.3
 //Alunos: Ana Carolina, Nicolas, Pietra, Roberto e Sarah
 //5 de dezembro de 2022
 
-/*3) Faça um programa que leia o nome, o time e a quantidade de gols de 3 jogadores de futebol. Após o cadastro informe:
+/*3) FaÃ§a um programa que leia o nome, o time e a quantidade de gols de 3 jogadores de futebol. ApÃ³s o cadastro informe:
 a) A quantidade total de gols marcados;
 b) Quantos jogadores jogam no FLAMENGO;
 c) Todos os dados do artilheiro.*/
@@ -31,8 +31,8 @@ int main(void){
 		scanf("%d", &time[i]);
 		fflush(stdin);
 		
-		printf("\n\n********** POSIÇÃO **********")/
-		printf("\n 1) Artilheiro\n 2) Zagueiro\n 3) Atacante\n Posição do jogador:");
+		printf("\n\n********** POSIÃ‡ÃƒO **********")/
+		printf("\n 1) Artilheiro\n 2) Zagueiro\n 3) Atacante\n PosiÃ§Ã£o do jogador:");
 		scanf("%d", &pos[i]);
 		fflush(stdin);
 		
