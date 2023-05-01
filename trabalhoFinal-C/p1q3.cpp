@@ -1,13 +1,13 @@
-//Engenharia de Computação - 1º semestre matutino - Linguagem de Programação I - Parte 1, q.1
+//Engenharia de ComputaÃ§Ã£o - 1Âº semestre matutino - Linguagem de ProgramaÃ§Ã£o I - Parte 1, q.3
 //Alunos: Ana Carolina, Nicolas, Pietra, Roberto e Sarah
 //5 de dezembro de 2022
 
-/*3) Crie um programa em C que cadastre os dados de 5 alunos. Os dados a serem cadastrados são: 
-nome, matrícula, endereço, sexo, os nomes das 3 disciplinas e as 3 notas de cada disciplina que ele está cursando.
-Os dados devem ser cadastrados em um vetor e/ou matriz. Após o cadastro informe:
-a)Os dados dos alunos cadastrados e a sua situação ("aprovado" ou "reprovado") em cada disciplina.
-b)Os dados do aluno com maior média em "LPI".
-c)A média geral dos alunos na disciplina "Algoritmo".
+/*3) Crie um programa em C que cadastre os dados de 5 alunos. Os dados a serem cadastrados sÃ£o: 
+nome, matrÃ­cula, endereÃ§o, sexo, os nomes das 3 disciplinas e as 3 notas de cada disciplina que ele estÃ¡ cursando.
+Os dados devem ser cadastrados em um vetor e/ou matriz. ApÃ³s o cadastro informe:
+a)Os dados dos alunos cadastrados e a sua situaÃ§Ã£o ("aprovado" ou "reprovado") em cada disciplina.
+b)Os dados do aluno com maior mÃ©dia em "LPI".
+c)A mÃ©dia geral dos alunos na disciplina "Algoritmo".
 d)A quantidade de alunos(as) reprovados em qualquer disciplina.*/
 
 #include<stdio.h>
@@ -30,11 +30,11 @@ int main(void){
 	scanf("%40[0-9a-zA-Z ]", &nome[i]);
 	fflush(stdin);
 	
-	printf("\n Digite a matrícula:", i);
+	printf("\n Digite a matrÃ­cula:", i);
 	scanf("%40[0-9a-zA-Z ]", &mat[i]);
 	fflush(stdin);
 	
-	printf("\n Digite o endereço:", i);
+	printf("\n Digite o endereÃ§o:", i);
 	scanf("%50[0-9a-zA-Z ]", &end[i]);
 	fflush(stdin);
 	
@@ -82,10 +82,10 @@ if(mlp[i] < 6 || malg[i] < 6 || mbd[i] < 6){
 
 do{
 printf("\n\n **********MENU**********");
-printf("\n Digite uma das opções abaixo");
-printf("\n 1) Dados e situação dos alunos");
-printf("\n 2) Dados do aluno com maior média em LPI");
-printf("\n 3) Média geral dos alunos em Algoritmo");
+printf("\n Digite uma das opÃ§Ãµes abaixo");
+printf("\n 1) Dados e situaÃ§Ã£o dos alunos");
+printf("\n 2) Dados do aluno com maior mÃ©dia em LPI");
+printf("\n 3) MÃ©dia geral dos alunos em Algoritmo");
 printf("\n 4) Quantidade de alunos reprovados em qualquer disciplina");
 printf("\n 5) Sair");
 scanf("%d",&menu);
@@ -96,8 +96,8 @@ for(i=1;i<6;i++){
 	fflush(stdin);
 	printf("\n\n\t ********** DADOS DO ALUNO %d **********\n", i);
 	printf("\n Nome: %s", nome[i]);
-	printf("\n Matrícula: %s", mat[i]);
-	printf("\n Endereço: %s", end[i]);
+	printf("\n MatrÃ­cula: %s", mat[i]);
+	printf("\n EndereÃ§o: %s", end[i]);
 	printf("\n Sexo: %s", sex[i]);
 	printf("\n Nota 1 em LP1: %.1f", n1lp[i]);
 	printf("\n Nota 2 LP1: %.1f", n2lp[i]);
@@ -136,25 +136,25 @@ break;
 
 case 2:
   if (mlp[1] >= mlp[2] && mlp[1] >= mlp[3] && mlp[1] >= mlp[4] && mlp[1] >= mlp[5]){
-    printf("\n O Aluno 1 possui a maior média em LP1: %.1f ", mlp[1]);
+    printf("\n O Aluno 1 possui a maior mÃ©dia em LP1: %.1f ", mlp[1]);
 }
    if(mlp[2] >= mlp[1] && mlp[2] >= mlp[3] && mlp[2] >= mlp[4] && mlp[2] >= mlp[5]){
-    printf("\n O Aluno 2 possui a maior média em LP1: %.1f ", mlp[2]);
+    printf("\n O Aluno 2 possui a maior mÃ©dia em LP1: %.1f ", mlp[2]);
 }
    if (mlp[3] >= mlp[1] && mlp[3] >= mlp[2] && mlp[3] >= mlp[4] && mlp[3] >= mlp[5]){
-    printf("\n O Aluno 3 possui a maior média em LP1: %.1f ", mlp[3]);
+    printf("\n O Aluno 3 possui a maior mÃ©dia em LP1: %.1f ", mlp[3]);
 }
    if (mlp[4] >= mlp[1] && mlp[4] >= mlp[2] && mlp[4] >= mlp[3] && mlp[4] >= mlp[5]){
-    printf("\n O Aluno 4 possui a maior média em LP1: %.1f ", mlp[4]);
+    printf("\n O Aluno 4 possui a maior mÃ©dia em LP1: %.1f ", mlp[4]);
 }
   if (mlp[5] >= mlp[1] && mlp[5] >= mlp[2] && mlp[5] >= mlp[3] && mlp[5] >= mlp[4]){
-    printf("\n O Aluno 5 possui a maior média em LP1: %.1f ", mlp[5]);
+    printf("\n O Aluno 5 possui a maior mÃ©dia em LP1: %.1f ", mlp[5]);
 }
 break;
 
 case 3:
 mg = (malg[1] + malg[2] + malg[3] + malg[4] + malg[5])/5;
-printf("\n Média geral dos alunos em Algoritmo: %.1f", mg);
+printf("\n MÃ©dia geral dos alunos em Algoritmo: %.1f", mg);
 break;
 
 case 4:
