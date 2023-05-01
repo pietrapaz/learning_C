@@ -1,13 +1,13 @@
-//Engenharia de Computação - 1º semestre matutino - Linguagem de Programação I - Parte 1, q.1
+//Engenharia de ComputaÃ§Ã£o - 1Âº semestre matutino - Linguagem de ProgramaÃ§Ã£o I - Parte 1, q.1
 //Alunos: Ana Carolina, Nicolas, Pietra, Roberto e Sarah
 //5 de dezembro de 2022
 
-/*2) Crie um programa que armazene 3 nomes numa matriz de strings. Após o cadastro, você deverá criar um MENU que informe:
-1 – Mostra os nomes cadastrados em maiúsculo e na ordem inversa, ou seja, mostra do último ao primeiro nome cadastrado;
-2 – Mostra quantas pessoas com o nome “PAULO” foram cadastradas;
-3 - Mostra quantas letras ‘A’ foram cadastradas na matriz de strings;
-4 – Mostra quantas letras ‘C’ o segundo nome cadastrado possui.
-5 – SAIR*/
+/*2) Crie um programa que armazene 3 nomes numa matriz de strings. ApÃ³s o cadastro, vocÃª deverÃ¡ criar um MENU que informe:
+1 â€“ Mostra os nomes cadastrados em maiÃºsculo e na ordem inversa, ou seja, mostra do Ãºltimo ao primeiro nome cadastrado;
+2 â€“ Mostra quantas pessoas com o nome â€œPAULOâ€ foram cadastradas;
+3 - Mostra quantas letras â€˜Aâ€™ foram cadastradas na matriz de strings;
+4 â€“ Mostra quantas letras â€˜Câ€™ o segundo nome cadastrado possui.
+5 â€“ SAIR*/
 
 #include<stdio.h>
 #include <ctype.h>
@@ -74,8 +74,8 @@ int main()
     }
     do{
 printf("\n\n********** MENU **********");
-printf("\n Digite um dos números abaixo:");
-printf("\n 1) Nomes em maiúsculo e na ordem inversa");
+printf("\n Digite um dos nÃºmeros abaixo:");
+printf("\n 1) Nomes em maiÃºsculo e na ordem inversa");
 printf("\n 2) Quantidade de vezes que o nome PAULO foi digitado");
 printf("\n 3) Quantidade de letras A cadastradas");
 printf("\n 4) Quantidade de letras C no segundo nome");
